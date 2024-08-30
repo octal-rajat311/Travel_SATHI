@@ -208,7 +208,7 @@ function CreateTrip() {
         <DialogContent>
           <DialogHeader>
             <DialogDescription>
-              <img src="public\logo.svg" className="" />
+              <img src="travel_planner\public\logo.svg" className="h-[47px] w-[180px]" />
               <h2 className="font-bold text-lg mt-7">Sign in with Google</h2>
               <h2 className="">Sign in to the App with Google securely</h2>
               <Button
