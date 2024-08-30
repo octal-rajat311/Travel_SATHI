@@ -47,5 +47,5 @@ This page lists all the previous trips the user has searched for or created, pro
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/ai-travel-planner.git
-   cd ai-travel-planner
+   git clone https://github.com/octal-rajat311/Travel_SATHI.git
+   cd Travel_SATHI
