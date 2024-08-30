@@ -32,8 +32,12 @@ Google Authentication
 
 This page allows users to customize their travel plans. Users can input preferences, dates, and locations, with real-time suggestions powered by the Google Maps API.
 
+![Create Trip Page](./src/assets/create_trip2.png)
+
+Autocomplete using google map API for places.
+
 ### 3. Itinerary Page
-![Itinerary Page](./assets/itinerary-page.png)
+![Itinerary Page](./src/assets/view_trip.png)
 
 Here, users can view their detailed travel itineraries, including hotels, activities, and day plans. The images of hotels and activities are dynamically fetched from Google.
 
