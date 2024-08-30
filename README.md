@@ -1,8 +1,8 @@
-# 🌍 AI Travel Planner App
+# Travel_SATHI AI Travel Planner App
 
 An intelligent travel planning application that simplifies your travel experience. The AI Travel Planner app uses modern technologies like React, Node.js, Express, Firebase, and integrates several APIs including the Gemini AI API and Google Maps API. This app allows users to create personalized travel itineraries, explore accommodations, and manage past trips.
 
-## 🚀 Features
+##  Features
 
 - **Frontend:** Built with React, styled using ShadCN.
 - **Backend:** Powered by Node.js and Express for robust server-side operations.
@@ -12,7 +12,7 @@ An intelligent travel planning application that simplifies your travel experienc
 - **Autocomplete Places:** Integrated with Google Maps API to suggest places as users type.
 - **Dynamic Content:** Real-time fetching of hotel and day plan images via HTTP requests to Google.
 
-## 📄 Pages
+##  Pages
 
 ### 1. Home Page
 ![Home Page](./src/assets/home.png)
@@ -21,11 +21,11 @@ The landing page of the app, welcoming users and providing a brief overview of t
 
 ![Home Page](./src/assets/login.png)
 
-Sign In option with Google 
+Sign-in option with Google.
 
 ![Home Page](./src/assets/login2.png)
 
-Google Authentication
+Google Authentication.
 
 ### 2. Create Trip Page
 ![Create Trip Page](./src/assets/create_trip1.png)
@@ -34,19 +34,27 @@ This page allows users to customize their travel plans. Users can input preferen
 
 ![Create Trip Page](./src/assets/create_trip2.png)
 
-Autocomplete using google map API for places.
+Autocomplete feature using Google Maps API for places.
 
 ### 3. Itinerary Page
 ![Itinerary Page](./src/assets/view_trip.png)
 
 Here, users can view their detailed travel itineraries, including hotels, activities, and day plans. The images of hotels and activities are dynamically fetched from Google.
 
+![Itinerary Page](./src/assets/hotel.png)
+
+Hotel recommendations according to budget.
+
+![Itinerary Page](./src/assets/iternary.png)
+
+Places to visit suggestions along with budget and time.
+
 ### 4. My Trips Page
-![My Trips Page](./assets/my-trips-page.png)
+![My Trips Page](./src/assets/my_trip.png)
 
 This page lists all the previous trips the user has searched for or created, providing easy access to their past itineraries.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **React:** Frontend library for building user interfaces.
 - **Node.js & Express:** Backend runtime and framework for handling server-side operations.
@@ -55,7 +63,7 @@ This page lists all the previous trips the user has searched for or created, pro
 - **Gemini AI API:** Utilized for generating travel itineraries.
 - **Google Maps API:** For places autocomplete and fetching real-time images and locations.
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository:**
    ```bash
