@@ -205,23 +205,22 @@ function CreateTrip() {
       </div>
 
       <Dialog open={OpenDialog}>
-        <DialogContent>
-          <DialogHeader>
-            <DialogDescription>
-              <img src="travel_planner\public\logo.svg" className="h-[47px] w-[180px]" />
-              <h2 className="font-bold text-lg mt-7">Sign in with Google</h2>
-              <h2 className="">Sign in to the App with Google securely</h2>
-              <Button
-                onClick={login}
-                className="w-full mt-5 flex items-center gap-2">
-                 <FcGoogle className="h-7 w-8" />
-                 Sign in with Google
-                
-              </Button>
-            </DialogDescription>
-          </DialogHeader>
-        </DialogContent>
-      </Dialog>
+  <DialogContent>
+    <DialogHeader>
+      <DialogTitle>Sign in with Google</DialogTitle> {/* Add this line */}
+      <DialogDescription>
+        <img src="/logo.svg" className="h-[47px]" alt="App Logo" />
+        <h2 className="font-bold text-lg mt-7">Sign in with Google</h2>
+        <h2>Sign in to the App with Google securely</h2>
+        <Button onClick={login} className="w-full mt-5 flex items-center gap-2">
+          <FcGoogle className="h-7 w-8" />
+          Sign in with Google
+        </Button>
+      </DialogDescription>
+    </DialogHeader>
+  </DialogContent>
+</Dialog>
+
     </div>
   );
 }
