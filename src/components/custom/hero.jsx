@@ -9,8 +9,8 @@ function Hero() {
       > <span className='text-[rgb(5,168,237)]'>Discover Your Next Adventure with AI:</span>   Personalized Itineraries at Your Fingertips </h1>
       <p className='text-xl text-gray-500 text-center'>Your personal trip planner and travel curator,creating custom itineraries tailored to your interest and budget</p>
 
-    
     <Link to={'/create-trip'}><Button> Get Started</Button> </Link>
+    <img src="/display.jpg"  className='rounded-3xl h-[500px]'/>
       
     </div>
   )
