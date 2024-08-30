@@ -15,12 +15,20 @@ An intelligent travel planning application that simplifies your travel experienc
 ## 📄 Pages
 
 ### 1. Home Page
-![Home Page](./assets/home-page.png)
+![Home Page](./src/assets/home.png)
 
 The landing page of the app, welcoming users and providing a brief overview of the app's capabilities.
 
+![Home Page](./src/assets/login.png)
+
+Sign In option with Google 
+
+![Home Page](./src/assets/login2.png)
+
+Google Authentication
+
 ### 2. Create Trip Page
-![Create Trip Page](./assets/create-trip-page.png)
+![Create Trip Page](./src/assets/create_trip1.png)
 
 This page allows users to customize their travel plans. Users can input preferences, dates, and locations, with real-time suggestions powered by the Google Maps API.
 
